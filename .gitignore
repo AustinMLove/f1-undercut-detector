@@ -1,0 +1,23 @@
+# FastF1 cache — large, fully regenerable from the API
+.fastf1_cache/
+
+# Local run outputs — regenerable, and raw telemetry shouldn't be bulk-redistributed
+raw/
+processed/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Secrets / local config
+.env
+
+# Editor
+.vscode/
+
+# macOS Finder cruft
+.DS_Store
